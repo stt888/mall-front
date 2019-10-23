@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= require('./layout/header-common.ejs')() %>
+    <title>Result - Happy Mall</title>
+  </head>
+
+  <body>
+    <%= require('./layout/nav-simple.ejs')() %>
+
+    <div class="page-wrap w">
+      <div class="result-con register-success">
+        <h1 class="result-title">Register Success!</h1>
+        <div class="result-content">
+          <a class="link" href="./index.html">Back to Home</a>
+        </div>
+      </div>
+      <div class="result-con default-success">
+        <h1 class="result-title">Operation Success!</h1>
+        <div class="result-content">
+          <a class="link" href="./index.html">Back to Home</a>
+        </div>
+      </div>
+    </div>
+
+    <%= require('./layout/footer.ejs')() %>
+  </body>
+</html>

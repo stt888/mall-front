@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    // "target": "es6",
+    // "allowSyntheticDefaultImports": false,
+    "baseUrl": "src",
+    "paths": {
+      "util": ["util"],
+      "page": ["page"],
+      "service": ["service"],
+      "image": ["image"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
